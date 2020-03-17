@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="contact pad-t-2 pad-b-2 island">
+  <div class="max-length">
+    <h1 class="push-none peta not-bold">Want to fo to Mars?</h1>
+    <hr>
+    <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    <div class="title-line">
+      <p class="mega italic title push-right-half">Personal details</p>
+      <hr class="line">
+    </div>
+    <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+    <div class="grid">
+      <div class="push unit xs-1-2 s-1-2 m-1 l-1 xl-1">
+        <label for="name">Name</label>
+        <input id="name" required>
+      </div>
+      <div class="push unit xs-1-2 s-1-2 m-1 l-1 xl-1">
+        <label for="age">Age</label>
+        <input id="age" required>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="push unit xs-1-2 s-1-2 m-1 l-1 xl-1">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="" required>
+      </div>
+      <div class="push unit xs-1-2 s-1-2 m-1 l-1 xl-1">
+        <label for="physical fitness">Physical Fitness</label>
+        <select id="physical fitness">
+          <option>Super-human</option>
+          <option>Fit as a fiddle</option>
+          <option>Not terribly strong</option>
+          <option>A little couch-potato-y</option>
+        </select>
+      </div>
+    </div>
+      <div class="push">
+        <label for="details">Address</label>
+        <textarea id="details" required></textarea>
+      </div>
+      <div>
+      <div class="title-line">
+        <p class="mega italic title push-right-half">Mission Statement</p>
+        <hr class="line">
+      </div>
+      <div class="push">
+        <label for="details">Why do you want to go to Mars?</label>
+        <textarea id="details" required></textarea>
+      </div>
+      <div class="text-center">
+
+        <button class="btn btn-dark milli" type="submit">Register for the trip!</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>

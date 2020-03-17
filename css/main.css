@@ -1,10 +1,15 @@
 html {
-  font-family: "Opens Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+section {
+  background-color: #fff;
 }
 
 .title-line {
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -12,9 +17,15 @@ html {
   flex-grow: 0;
 }
 
-
 .line {
-  flex-grow:1;
+  flex-grow: 1;
   height: 1px;
   background-color: #fff;
+  color: #000;
+  padding: none;
+  border: 1px;
+}
+
+.horizontal-rule {
+  border-top: 2px solid #000;
 }

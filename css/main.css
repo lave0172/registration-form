@@ -22,10 +22,18 @@ section {
   height: 1px;
   background-color: #fff;
   color: #000;
-  padding: none;
+  padding: 0;
   border: 1px;
 }
 
 .horizontal-rule {
   border-top: 2px solid #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-color: #f2f2f2;
+  }
+
 }
